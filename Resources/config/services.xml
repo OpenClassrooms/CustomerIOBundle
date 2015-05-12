@@ -1,11 +1,14 @@
 <container xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://symfony.com/schema/dic/services" xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
     <services>
 
-        <service id="openclassrooms.customer_io.guzzle_client" class="OpenClassrooms\CustomerIO\Impl\GuzzleClient" />
+        <service id="openclassrooms.customer_io.guzzle_client" class="OpenClassrooms\CustomerIO\Impl\GuzzleClient">
+            <argument>%openclassrooms.customer_io.site_id%</argument>
+            <argument>%openclassrooms.customer_io.api_key%</argument>
+        </service>
 
         <service id="openclassrooms.customer_io.services.customer_service" class="OpenClassrooms\CustomerIO\Services\Impl\CustomerServiceImpl">
             <call method="setClient">
-                <argument type="service" id="openclassrooms.customer_io.guzzle_client" />
+                <argument type="service" id="openclassrooms.customer_io.guzzle_client"/>
             </call>
         </service>
     </services>

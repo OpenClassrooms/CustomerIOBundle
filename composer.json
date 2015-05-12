@@ -1,8 +1,7 @@
 {
   "name": "openclassrooms/customer-io-bundle",
   "description": "CustomerIO Bundle",
-  "minimum-stability": "stable",
-  "license": "proprietary",
+  "license": "MIT",
   "authors": [
     {
       "name": "Bastien Rambure",
@@ -20,7 +19,7 @@
   },
   "require": {
     "php": ">=5.4",
-    "openclassrooms/customer-io": "dev-master",
+    "openclassrooms/customer-io": "1.0.x-dev",
     "symfony/http-kernel": "~2.6",
     "symfony/dependency-injection": "~2.6",
     "symfony/config": "~2.6"
