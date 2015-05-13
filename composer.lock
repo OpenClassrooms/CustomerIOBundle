@@ -171,12 +171,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenClassrooms/CustomerIO.git",
-                "reference": "dfd1da54ccf4495304a2255e9c2588c6143bf9b2"
+                "reference": "43d580c34f106297582fdd63477dabd9627e8c6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenClassrooms/CustomerIO/zipball/dfd1da54ccf4495304a2255e9c2588c6143bf9b2",
-                "reference": "dfd1da54ccf4495304a2255e9c2588c6143bf9b2",
+                "url": "https://api.github.com/repos/OpenClassrooms/CustomerIO/zipball/43d580c34f106297582fdd63477dabd9627e8c6e",
+                "reference": "43d580c34f106297582fdd63477dabd9627e8c6e",
                 "shasum": ""
             },
             "require": {
@@ -212,11 +212,11 @@
                     "email": "bastien.rambure@openclassrooms.com"
                 }
             ],
-            "description": "Use case library",
+            "description": "CustomerIO Library",
             "keywords": [
                 "design"
             ],
-            "time": "2015-05-07 15:52:23"
+            "time": "2015-05-13 14:44:29"
         },
         {
             "name": "psr/log",
