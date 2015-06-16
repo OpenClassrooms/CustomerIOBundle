@@ -80,7 +80,7 @@ class OpenClassroomsCustomerIOExtensionTest extends \PHPUnit_Framework_TestCase
         /** @var \Guzzle\Http\Client $guzzle */
         $guzzle = $rp->getValue($client);
 
-        $this->assertEquals(array($expectedSiteId, $expectedApiKey), $guzzle->getDefaultOption('auth'));
+        $this->assertEquals(array($expectedSiteId, $expectedApiKey), $guzzle->getConfig('auth'));
     }
 
     /**
