@@ -17,15 +17,20 @@
       "OpenClassrooms\\Bundle\\CustomerIOBundle\\": ""
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "OpenClassrooms\\Bundle\\CustomerIOBundle\\Tests\\": "tests/"
+    }
+  },
   "require": {
     "php": ">=5.4",
-    "openclassrooms/customer-io": "1.0.x-dev",
+    "openclassrooms/customer-io": "dev-OC-4954_unsubscribe_ban_to_newsletter@dev",
     "symfony/http-kernel": "~2.6",
     "symfony/dependency-injection": "~2.6",
     "symfony/config": "~2.6"
   },
   "require-dev": {
-    "phpunit/phpunit": "~4.5",
+    "phpunit/phpunit": "~4.7",
     "satooshi/php-coveralls": "dev-master"
   },
   "extra": {
