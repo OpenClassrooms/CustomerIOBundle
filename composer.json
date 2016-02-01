@@ -24,7 +24,7 @@
   },
   "require": {
     "php": ">=5.4",
-    "openclassrooms/customer-io": "dev-OC-4954_unsubscribe_ban_to_newsletter@dev",
+    "openclassrooms/customer-io": "1.0.x-dev",
     "symfony/http-kernel": ">=2.7 <4",
     "symfony/dependency-injection": ">=2.7 <4",
     "symfony/config": ">=2.7 <4"
